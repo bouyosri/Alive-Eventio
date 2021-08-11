@@ -1,6 +1,7 @@
 @extends('event.layout')
 @section('content')
-
+<div style="    padding-inline: 500px;
+padding-top: 80px;">
     <div class="row" style="margin-bottom: 20px;">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
@@ -61,4 +62,5 @@
         </div>
 
     </form>
+</div>
 @endsection

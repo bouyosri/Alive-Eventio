@@ -45,6 +45,9 @@ Route::resource('events',EventController::class);
 
 //-----User
 Route::resource('user',UserController::class);
-Route::get('/{id}',[UserController::class, 'show']);
-Route::post('/edit/{id}',[UserController::class, 'edit']);
 Route::post('/organize/{id}',[UserController::class, 'organize'])->name('organize');
+Route::post('/block/{id}',[UserController::class, 'block'])->name('block');
+Route::get('/myaccount',[UserController::class, 'edit'])->name('edit');
+Route::put('/myaccountupdate/{id}',[UserController::class, 'update'])->name('updateuser');
+Route::get('/organizer/{id}',[UserController::class, 'show'])->name('showuser');
+

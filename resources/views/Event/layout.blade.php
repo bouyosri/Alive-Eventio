@@ -8,13 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Eventin Events &#8211; Evenex </title>
-    <link href="../wp-content/uploads/sites/14/sgf-css/font-3846a9c833f7ac08bc1d939af30a9663.css" rel="stylesheet">
+    <link href="../../wp-content/uploads/sites/14/sgf-css/font-3846a9c833f7ac08bc1d939af30a9663.css" rel="stylesheet">
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Evenex  &raquo; Feed" href="../feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="Evenex  &raquo; Comments Feed" href="../comments/feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="Evenex  &raquo; Eventin Events Feed" href="indexd784.html?feed=rss2" />
     <script type="text/javascript">
-        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.4"}};
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/../../wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.4"}};
         !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
     </script>
     <style type="text/css">
@@ -31,35 +31,35 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='evenex-widget-styles-pro-css' href='../wp-content/plugins/evenex-essential/modules/elements/assets/css/widget-styles-pro4963.css?ver=1.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min77e1.css?ver=5.6.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='wp-block-library-theme-css' href='../wp-includes/css/dist/block-library/theme.min77e1.css?ver=5.6.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='wc-block-vendors-style-css' href='../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecce7.css?ver=4.0.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='wc-block-style-css' href='../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecce7.css?ver=4.0.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='eventin-block-style-css-css' href='../wp-content/plugins/wp-event-solution/core/guten-block/dist/blocks.style.build.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-layout-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-layoutbb93.css?ver=5.0.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreenbb93.css?ver=5.0.0' type='text/css' media='only screen and (max-width: 768px)' />
-    <link rel='stylesheet' id='woocommerce-general-css' href='../wp-content/plugins/woocommerce/assets/css/woocommercebb93.css?ver=5.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='evenex-widget-styles-pro-css' href='../../wp-content/plugins/evenex-essential/modules/elements/assets/css/widget-styles-pro4963.css?ver=1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.min77e1.css?ver=5.6.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-theme-css' href='../../wp-includes/css/dist/block-library/theme.min77e1.css?ver=5.6.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='wc-block-vendors-style-css' href='../../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecce7.css?ver=4.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='wc-block-style-css' href='../../wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecce7.css?ver=4.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='eventin-block-style-css-css' href='../../wp-content/plugins/wp-event-solution/core/guten-block/dist/blocks.style.build.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommerce-layoutbb93.css?ver=5.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreenbb93.css?ver=5.0.0' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommercebb93.css?ver=5.0.0' type='text/css' media='all' />
     <style id='woocommerce-inline-inline-css' type='text/css'>
         .woocommerce form .form-row .required { visibility: visible; }
     </style>
-    <link rel='stylesheet' id='xs-front-style-css' href='../wp-content/plugins/wp-social/assets/css/front-style/front-style77e1.css?ver=5.6.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='xs_login_font_login_css-css' href='../wp-content/plugins/wp-social/assets/css/font-icon77e1.css?ver=5.6.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='metform-ui-css' href='../wp-content/plugins/metform/public/assets/css/metform-ui5f04.css?ver=1.4.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='metform-style-css' href='../wp-content/plugins/metform/public/assets/css/style5f04.css?ver=1.4.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='etn-public-css-css' href='../wp-content/plugins/wp-event-solution/assets/css/event-manager-publicc0b8.css?ver=2.3.7' type='text/css' media='all' />
-    <link rel='stylesheet' id='fontawesome-css' href='../wp-content/plugins/wp-event-solution/assets/css/font-awesome5597.css?ver=5.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='../wp-content/plugins/elementskit-lite/modules/controls/assets/css/ekiticonsad76.css?ver=5.9.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementskit-parallax-style-css' href='../wp-content/plugins/evenex-essential/modules/parallax/assets/css/style7fb9.css?ver=1.5.9' type='text/css' media='all' />
-    <link rel='stylesheet' id='fonts-css' href='../wp-content/uploads/sites/14/sgf-css/font-21b893d47ecd2cb96792c91672b234e1.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/evenex/assets/css/bootstrap.min7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='fontawesome-min-css' href='../wp-content/themes/evenex/assets/css/fontawesome.min7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='select2-css' href='../wp-content/plugins/woocommerce/assets/css/select2bb93.css?ver=5.0.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='evenex-image-choose-css' href='../wp-content/themes/evenex/assets/css/image-choose-control7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='evenex-icon-css' href='../wp-content/themes/evenex/assets/css/iconfont7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='xs-grid-line-animation-css-css' href='../wp-content/themes/evenex/assets/css/grid-line-parallax7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='evenex-blog-css' href='../wp-content/themes/evenex/assets/css/blog7ef2.css?ver=1.5' type='text/css' media='all' />
-    <link rel='stylesheet' id='evenex-master-css' href='../wp-content/themes/evenex/assets/css/master53c0.css?ver=1625441806' type='text/css' media='all' />
+    <link rel='stylesheet' id='xs-front-style-css' href='../../wp-content/plugins/wp-social/assets/css/front-style/front-style77e1.css?ver=5.6.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='xs_login_font_login_css-css' href='../../wp-content/plugins/wp-social/assets/css/font-icon77e1.css?ver=5.6.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='metform-ui-css' href='../../wp-content/plugins/metform/public/assets/css/metform-ui5f04.css?ver=1.4.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='metform-style-css' href='../../wp-content/plugins/metform/public/assets/css/style5f04.css?ver=1.4.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='etn-public-css-css' href='../../wp-content/plugins/wp-event-solution/assets/css/event-manager-publicc0b8.css?ver=2.3.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='fontawesome-css' href='../../wp-content/plugins/wp-event-solution/assets/css/font-awesome5597.css?ver=5.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-ekiticons-css' href='../../wp-content/plugins/elementskit-lite/modules/controls/assets/css/ekiticonsad76.css?ver=5.9.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementskit-parallax-style-css' href='../../wp-content/plugins/evenex-essential/modules/parallax/assets/css/style7fb9.css?ver=1.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='fonts-css' href='../../wp-content/uploads/sites/14/sgf-css/font-21b893d47ecd2cb96792c91672b234e1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='../../wp-content/themes/evenex/assets/css/bootstrap.min7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='fontawesome-min-css' href='../../wp-content/themes/evenex/assets/css/fontawesome.min7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='select2-css' href='../../wp-content/plugins/woocommerce/assets/css/select2bb93.css?ver=5.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='evenex-image-choose-css' href='../../wp-content/themes/evenex/assets/css/image-choose-control7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='evenex-icon-css' href='../../wp-content/themes/evenex/assets/css/iconfont7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='xs-grid-line-animation-css-css' href='../../wp-content/themes/evenex/assets/css/grid-line-parallax7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='evenex-blog-css' href='../../wp-content/themes/evenex/assets/css/blog7ef2.css?ver=1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='evenex-master-css' href='../../wp-content/themes/evenex/assets/css/master53c0.css?ver=1625441806' type='text/css' media='all' />
     <style id='evenex-master-inline-css' type='text/css'>
         h1{
             font-family: Archivo, sans-serif;color:#041a57;font-size:36px;
@@ -184,21 +184,21 @@
             background: #e54220;
         }
     </style>
-    <link rel='stylesheet' id='evenex-dark-css' href='../wp-content/themes/evenex/assets/css/dark-theme53c0.css?ver=1625441806' type='text/css' media='all' />
-    <link rel='stylesheet' id='ekit-widget-styles-css' href='../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-stylese7f3.css?ver=2.1.7' type='text/css' media='all' />
-    <link rel='stylesheet' id='ekit-responsive-css' href='../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsivee7f3.css?ver=2.1.7' type='text/css' media='all' />
-    <script type='text/javascript' src='../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
-    <script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+    <link rel='stylesheet' id='evenex-dark-css' href='../../wp-content/themes/evenex/assets/css/dark-theme53c0.css?ver=1625441806' type='text/css' media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-css' href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-stylese7f3.css?ver=2.1.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='ekit-responsive-css' href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsivee7f3.css?ver=2.1.7' type='text/css' media='all' />
+    <script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
+    <script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
     <script type='text/javascript' id='xs_social_custom-js-extra'>
         /* <![CDATA[ */
         var rest_api_conf = {"siteurl":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark","nonce":"1053ff3f87","root":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/wp-json\/"};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='../wp-content/plugins/wp-social/assets/js/social-front77e1.js?ver=5.6.4' id='xs_social_custom-js'></script>
-    <script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/jarallax7fb9.js?ver=1.5.9' id='jarallax-js'></script>
+    <script type='text/javascript' src='../../wp-content/plugins/wp-social/assets/js/social-front77e1.js?ver=5.6.4' id='xs_social_custom-js'></script>
+    <script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/jarallax7fb9.js?ver=1.5.9' id='jarallax-js'></script>
     <link rel="https://api.w.org/" href="../wp-json/index.html" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.6.4" />
     <meta name="generator" content="WooCommerce 5.0.0" />
 
@@ -206,11 +206,11 @@
         <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
     </noscript>
     <script type="text/javascript">
-        var elementskit_module_parallax_url = "../wp-content/plugins/evenex-essential/modules/parallax/index.html"
+        var elementskit_module_parallax_url = "../../wp-content/plugins/evenex-essential/modules/parallax/index.html"
     </script>
-    <link rel="icon" href="../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" sizes="32x32" />
-    <link rel="icon" href="../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" />
+    <link rel="icon" href="../../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" sizes="32x32" />
+    <link rel="icon" href="../../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../../wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" />
     <meta name="msapplication-TileImage" content="https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2020/12/favicon-32x32-1.png" />
     <style type="text/css" id="wp-custom-css">
         .xs_custom_sticky_menu.ekit-sticky--effects {
@@ -466,7 +466,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="elementor-image">
                                                 <a href="../index.html">
-                                                    <img width="363" height="88" src="../wp-content/uploads/sites/14/2021/02/logo.png" class="attachment-large size-large" alt="site logo not found" loading="lazy" srcset="https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo.png 363w, https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo-300x73.png 300w" sizes="(max-width: 363px) 100vw, 363px" /> </a>
+                                                    <img width="363" height="88" src="../../wp-content/uploads/sites/14/2021/02/logo.png" class="attachment-large size-large" alt="site logo not found" loading="lazy" srcset="https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo.png 363w, https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo-300x73.png 300w" sizes="(max-width: 363px) 100vw, 363px" /> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -488,383 +488,12 @@
 
                                                         <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../about-us/index.html" class="ekit-menu-nav-link">About</a></li>
                                                         <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/events" class="ekit-menu-nav-link">Events</a></li>
-                                                        <li id="menu-item-8295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8295 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Schedule<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                <li id="menu-item-4919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4919 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-list/index.html" class=" dropdown-item">Schedule List</a>
-                                                                <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-vertical/index.html" class=" dropdown-item">Schedule Vertical</a>
-                                                                <li id="menu-item-4917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-horizontal/index.html" class=" dropdown-item">Schedule horizontal</a>
-                                                            </ul>
-                                                        </li>
 
-                                                        <li id="menu-item-1357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1357 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                <li id="menu-item-4920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4920 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                                    <a href="#" class=" dropdown-item">Speaker<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                                    <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                        <li id="menu-item-3267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker-list/index.html" class=" dropdown-item">Speaker List</a>
-                                                                        <li id="menu-item-4921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4921 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker/laura-bryant-duplicate-1/index.html" class=" dropdown-item">Single Speaker</a>
-                                                                        <li id="menu-item-4922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4922 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker/index.html" class=" dropdown-item">Speaker Archive</a>
-                                                                        <li id="menu-item-4923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4923 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker-categories/consultant/index.html" class=" dropdown-item">Speaker Category</a>
-                                                                    </ul>
-                                                                <li id="menu-item-8137" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-8137 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../news/index.html" class=" dropdown-item">News</a>
-                                                                <li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../venue/index.html" class=" dropdown-item">Venue</a>
-                                                                <li id="menu-item-5041" class="d-none menu-item menu-item-type-post_type menu-item-object-page menu-item-5041 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../hotel-room/index.html" class="d-none dropdown-item">Hotel Room</a>
-                                                                <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../support-faq/index.html" class=" dropdown-item">Support &amp; Faq</a>
-                                                                <li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../sponsor/index.html" class=" dropdown-item">Sponsor</a>
-                                                                <li id="menu-item-2201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../gallery/index.html" class=" dropdown-item">Gallery</a>
-                                                                <li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../pricing-plan/index.html" class=" dropdown-item">Pricing Plan</a>
-                                                                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../contact-us/index.html" class=" dropdown-item">Contact</a>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-5271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5271 nav-item elementskit-dropdown-has top_position elementskit-dropdown-menu-custom_width elementskit-megamenu-has elementskit-mobile-builder-content" data-vertical-menu=1140>
-                                                            <a href="#" class="ekit-menu-nav-link">Elements<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-megamenu-panel">
-                                                                <div data-elementor-type="wp-post" data-elementor-id="5272" class="elementor elementor-5272" data-elementor-settings="[]">
-                                                                    <div class="elementor-inner">
-                                                                        <div class="elementor-section-wrap">
-                                                                            <section class="elementor-section elementor-top-section elementor-element elementor-element-2bae7b1a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2bae7b1a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                                                                                <div class="elementor-container elementor-column-gap-default">
-                                                                                    <div class="elementor-row">
-                                                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6272c495" data-id="6272c495" data-element_type="column">
-                                                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                <div class="elementor-widget-wrap">
-                                                                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-6c0296f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c0296f6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                        <div class="elementor-container elementor-column-gap-default">
-                                                                                                            <div class="elementor-row">
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7158d446" data-id="7158d446" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-7278078 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="7278078" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-unlink"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-9c88c12 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="9c88c12" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/accordion/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Accordion</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/count-down-timer/index.html" class="elementor-repeater-item-7f952d5 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Count Down Timer</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-accordion/index.html" class="elementor-repeater-item-c82bbbe ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Accordion</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/pie-chart/index.html" class="elementor-repeater-item-39c552d ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Pie Chart</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-comparison/index.html" class="elementor-repeater-item-2e18eff ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Comparison</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2de14ced" data-id="2de14ced" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-5855eaa ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="5855eaa" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-bubble"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-6fd05d09 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="6fd05d09" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/blog/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Blog</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/faq/index.html" class="elementor-repeater-item-0367d10 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">FAQ</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-box/index.html" class="elementor-repeater-item-03add03 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Box</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/pricing/index.html" class="elementor-repeater-item-e612efc ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Pricing</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/contact-form/index.html" class="elementor-repeater-item-16bb0b2 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Contact Form</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/social-media/index.html" class="elementor-repeater-item-6779c44 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Social Media</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687dffb1" data-id="687dffb1" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-27d31d04 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="27d31d04" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-unlink"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-d34ee47 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="d34ee47" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/client-logo/index.html" class="elementor-repeater-item-a6f91d5 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Client Logo</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/fun-fact/index.html" class="elementor-repeater-item-90690f9 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Fun fact</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/progress-bar/index.html" class="elementor-repeater-item-0b6b5da ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Progress Bar</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/mail-chimp/index.html" class="elementor-repeater-item-c5caf9b ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Mail Chimp</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/video/index.html" class="elementor-repeater-item-6fb34aa ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Video</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-58ea5436" data-id="58ea5436" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-7ae892bc ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="7ae892bc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-bubble"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-6577ebc0 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="6577ebc0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/tab/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Tab</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/icon-box/index.html" class="elementor-repeater-item-eecafa2 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Icon Box</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/testimonial/index.html" class="elementor-repeater-item-361adbc ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Testimonial</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/team/index.html" class="elementor-repeater-item-81e7e90 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Team</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/call-to-action/index.html" class="elementor-repeater-item-be374d0 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Call To Action</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </section>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </ul>
 
-                                                        </li>
+
+
+
+
                                                         @guest
                                                             @if (Route::has('login'))
                                                                 <div style="padding-top: 17px;" class="elementor-element elementor-element-292c45d elementor-widget__width-auto elementor-hidden-phone elementor-widget elementor-widget-elementskit-dual-button" data-id="292c45d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-dual-button.default">
@@ -887,10 +516,20 @@
 
                                                             @endif
                                                         @else
+                                                            @if (Auth::user()->role == 3 or Auth::user()->role == 2)
+                                                                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/user" class="ekit-menu-nav-link">Users</a></li>
+                                                            @endif
                                                             <li style="margin-left: 194px;" id="menu-item-8295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8295 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                                <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">{{ Auth::user()->name }}<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+
+                                                                <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">
+                                                                    @if(Auth::user()->image)
+                                                                        <img style="    max-height: 50px;" src="../wp-content/uploads/images/{{Auth::user()->image}}" class="img-fluid img-thumbnail">
+                                                                    @else
+                                                                        <img style="    max-height: 50px;" src="../wp-content/uploads/images/user1.png" class="img-fluid img-thumbnail">
+                                                                    @endif
+                                                                    {{ Auth::user()->name }}<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
                                                                 <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                    <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-vertical/index.html" class=" dropdown-item">My Account</a></li>
+                                                                    <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/myaccount" class=" dropdown-item">My Account</a></li>
                                                                     <li id="menu-item-4917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
                                                                         <a href="{{ route('logout') }}" class=" dropdown-item" onclick="event.preventDefault();
                                                                         document.getElementById('logout-form').submit();">
@@ -915,7 +554,7 @@
                                                     <div class="elementskit-nav-identity-panel">
                                                         <div class="elementskit-site-title">
                                                             <a class="elementskit-nav-logo" href="https://demo.xpeedstudio.com/evenex/multi-event-dark" target="_self" rel="">
-                                                                <img src="../wp-content/uploads/sites/14/2020/12/main-logo.png" alt="">
+                                                                <img src="../../wp-content/uploads/sites/14/2020/12/main-logo.png" alt="">
                                                             </a>
                                                         </div>
                                                         <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
@@ -978,7 +617,7 @@
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-image">
                                                                         <a href="../index.html">
-                                                                            <img width="182" height="44" src="../wp-content/uploads/sites/14/2021/02/Group-343.png" class="attachment-large size-large" alt="" loading="lazy" /> </a>
+                                                                            <img width="182" height="44" src="../../wp-content/uploads/sites/14/2021/02/Group-343.png" class="attachment-large size-large" alt="" loading="lazy" /> </a>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1300,64 +939,64 @@
         background-color: ;
     }
 </style>
-<link rel='stylesheet' id='elementor-frontend-legacy-css' href='../wp-content/plugins/elementor/assets/css/frontend-legacy.min0226.css?ver=3.1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/plugins/elementor/assets/css/frontend.min0226.css?ver=3.1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-11317-css' href='../wp-content/uploads/sites/14/elementor/css/post-113173614.css?ver=1614752976' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-5-all-css' href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min0226.css?ver=3.1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-4-shim-css' href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min0226.css?ver=3.1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-5272-css' href='../wp-content/uploads/sites/14/elementor/css/post-52723614.css?ver=1614752976' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-12862-css' href='../wp-content/uploads/sites/14/elementor/css/post-128623614.css?ver=1614752976' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-11327-css' href='../wp-content/uploads/sites/14/elementor/css/post-11327cdfd.css?ver=1617280076' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-css' href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min21f9.css?ver=5.11.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-animations-css' href='../wp-content/plugins/elementor/assets/lib/animations/animations.min0226.css?ver=3.1.2' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-4807-css' href='../wp-content/uploads/sites/14/elementor/css/post-4807c65a.css?ver=1614752358' type='text/css' media='all' />
-<link rel='stylesheet' id='metform-css-formpicker-control-editor-css' href='../wp-content/plugins/metform/controls/assets/css/form-picker-editor8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementskit-css-widgetarea-control-editor-css' href='../wp-content/plugins/elementskit-lite/modules/controls/assets/css/widgetarea-editore7f3.css?ver=2.1.7' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-global-css' href='../wp-content/uploads/sites/14/elementor/css/globalc65a.css?ver=1614752358' type='text/css' media='all' />
-<link rel='stylesheet' id='google-fonts-1-css' href='../wp-content/uploads/sites/14/sgf-css/font-53fa417d0349548395945ccded68924e.css' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min9e0b.css?ver=5.15.1' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min9e0b.css?ver=5.15.1' type='text/css' media='all' />
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70' id='jquery-blockui-js'></script>
+<link rel='stylesheet' id='elementor-frontend-legacy-css' href='../../wp-content/plugins/elementor/assets/css/frontend-legacy.min0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='../../wp-content/plugins/elementor/assets/css/frontend.min0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-11317-css' href='../../wp-content/uploads/sites/14/elementor/css/post-113173614.css?ver=1614752976' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5272-css' href='../../wp-content/uploads/sites/14/elementor/css/post-52723614.css?ver=1614752976' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-12862-css' href='../../wp-content/uploads/sites/14/elementor/css/post-128623614.css?ver=1614752976' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-11327-css' href='../../wp-content/uploads/sites/14/elementor/css/post-11327cdfd.css?ver=1617280076' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min21f9.css?ver=5.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css' href='../../wp-content/plugins/elementor/assets/lib/animations/animations.min0226.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-4807-css' href='../../wp-content/uploads/sites/14/elementor/css/post-4807c65a.css?ver=1614752358' type='text/css' media='all' />
+<link rel='stylesheet' id='metform-css-formpicker-control-editor-css' href='../../wp-content/plugins/metform/controls/assets/css/form-picker-editor8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementskit-css-widgetarea-control-editor-css' href='../../wp-content/plugins/elementskit-lite/modules/controls/assets/css/widgetarea-editore7f3.css?ver=2.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='../../wp-content/uploads/sites/14/elementor/css/globalc65a.css?ver=1614752358' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='../../wp-content/uploads/sites/14/sgf-css/font-53fa417d0349548395945ccded68924e.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min9e0b.css?ver=5.15.1' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min9e0b.css?ver=5.15.1' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70' id='jquery-blockui-js'></script>
 <script type='text/javascript' id='wc-add-to-cart-js-extra'>
     /* <![CDATA[ */
     var wc_add_to_cart_params = {"ajax_url":"\/evenex\/multi-event-dark\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/evenex\/multi-event-dark\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark","is_cart":"","cart_redirect_after_add":"no"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minbb93.js?ver=5.0.0' id='wc-add-to-cart-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minbb93.js?ver=5.0.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4' id='js-cookie-js'></script>
 <script type='text/javascript' id='woocommerce-js-extra'>
     /* <![CDATA[ */
     var woocommerce_params = {"ajax_url":"\/evenex\/multi-event-dark\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/evenex\/multi-event-dark\/?wc-ajax=%%endpoint%%"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minbb93.js?ver=5.0.0' id='woocommerce-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minbb93.js?ver=5.0.0' id='woocommerce-js'></script>
 <script type='text/javascript' id='wc-cart-fragments-js-extra'>
     /* <![CDATA[ */
     var wc_cart_fragments_params = {"ajax_url":"\/evenex\/multi-event-dark\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/evenex\/multi-event-dark\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_a0d4d0df4c06ee3488b02f675fa43093","fragment_name":"wc_fragments_a0d4d0df4c06ee3488b02f675fa43093","request_timeout":"5000"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.minbb93.js?ver=5.0.0' id='wc-cart-fragments-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/metform/public/assets/js/htm5f04.js?ver=1.4.6' id='htm-js'></script>
-<script type='text/javascript' src='../wp-includes/js/dist/vendor/lodash.minf492.js?ver=4.17.19' id='lodash-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.minbb93.js?ver=5.0.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/metform/public/assets/js/htm5f04.js?ver=1.4.6' id='htm-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/lodash.minf492.js?ver=4.17.19' id='lodash-js'></script>
 <script type='text/javascript' id='lodash-js-after'>
     window.lodash = _.noConflict();
 </script>
-<script type='text/javascript' src='../wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/wp-polyfill.min89b1.js?ver=7.4.4' id='wp-polyfill-js'></script>
 <script type='text/javascript' id='wp-polyfill-js-after'>
-    ( 'fetch' in window ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );
+    ( 'fetch' in window ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-fetch.min6e0e.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min2e00.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-url.min5aed.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-formdata.mine9bd.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min4c56.js?ver=2.0.2"></scr' + 'ipt>' );
 </script>
-<script type='text/javascript' src='../wp-includes/js/dist/vendor/react.mincd00.js?ver=16.13.1' id='react-js'></script>
-<script type='text/javascript' src='../wp-includes/js/dist/vendor/react-dom.mincd00.js?ver=16.13.1' id='react-dom-js'></script>
-<script type='text/javascript' src='../wp-includes/js/dist/escape-html.minf224.js?ver=bf1b8a4ca2c3b18d741a467e1e911a36' id='wp-escape-html-js'></script>
-<script type='text/javascript' src='../wp-includes/js/dist/element.min30c6.js?ver=94cc04e5247c5da340a15732e1f75b45' id='wp-element-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/react.mincd00.js?ver=16.13.1' id='react-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/react-dom.mincd00.js?ver=16.13.1' id='react-dom-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/escape-html.minf224.js?ver=bf1b8a4ca2c3b18d741a467e1e911a36' id='wp-escape-html-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/element.min30c6.js?ver=94cc04e5247c5da340a15732e1f75b45' id='wp-element-js'></script>
 <script type='text/javascript' id='metform-app-js-extra'>
     /* <![CDATA[ */
     var mf = {"postType":"etn","restURI":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/wp-json\/metform\/v1\/forms\/views\/"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='../wp-content/plugins/metform/public/assets/js/app5f04.js?ver=1.4.6' id='metform-app-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/wp-event-solution/assets/js/event-manager-publicc0b8.js?ver=2.3.7' id='etn-public-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-scripte7f3.js?ver=2.1.7' id='elementskit-framework-js-frontend-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/metform/public/assets/js/app5f04.js?ver=1.4.6' id='metform-app-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/wp-event-solution/assets/js/event-manager-publicc0b8.js?ver=2.3.7' id='etn-public-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-scripte7f3.js?ver=2.1.7' id='elementskit-framework-js-frontend-js'></script>
 <script type='text/javascript' id='elementskit-framework-js-frontend-js-after'>
     var elementskit = {
         resturl: 'https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-json/elementskit/v1/',
@@ -1365,42 +1004,42 @@
 
 
 </script>
-<script type='text/javascript' src='../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scriptse7f3.js?ver=2.1.7' id='ekit-widget-scripts-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/TweenMax.min7fb9.js?ver=1.5.9' id='tweenmax-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/jquery.easing.1.37fb9.js?ver=1.5.9' id='jquery-easing-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/tilt.jquery.min7fb9.js?ver=1.5.9' id='tilt-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/anime7fb9.js?ver=1.5.9' id='animejs-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/magician7fb9.js?ver=1.5.9' id='magicianjs-js'></script>
-<script type='text/javascript' src='../wp-content/themes/evenex/assets/js/popper.min7ef2.js?ver=1.5' id='popper-js'></script>
-<script type='text/javascript' src='../wp-content/themes/evenex/assets/js/bootstrap.min7ef2.js?ver=1.5' id='bootstrap-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/select2/select2.full.minfa0c.js?ver=4.0.3' id='select2-js'></script>
-<script type='text/javascript' src='../wp-content/themes/evenex/assets/js/xs-grid-line-animation7ef2.js?ver=1.5' id='xs-grid-line-animation-js'></script>
-<script type='text/javascript' src='../wp-content/themes/evenex/assets/js/script7ef2.js?ver=1.5' id='evenex-script-js'></script>
-<script type='text/javascript' src='../wp-includes/js/wp-embed.min77e1.js?ver=5.6.4' id='wp-embed-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min0226.js?ver=3.1.2' id='font-awesome-4-shim-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/webpack.runtime.min0226.js?ver=3.1.2' id='elementor-webpack-runtime-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend-modules.min0226.js?ver=3.1.2' id='elementor-frontend-modules-js'></script>
-<script type='text/javascript' src='../wp-includes/js/jquery/ui/core.min35d0.js?ver=1.12.1' id='jquery-ui-core-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/share-link/share-link.min0226.js?ver=3.1.2' id='share-link-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scriptse7f3.js?ver=2.1.7' id='ekit-widget-scripts-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/TweenMax.min7fb9.js?ver=1.5.9' id='tweenmax-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/jquery.easing.1.37fb9.js?ver=1.5.9' id='jquery-easing-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/tilt.jquery.min7fb9.js?ver=1.5.9' id='tilt-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/anime7fb9.js?ver=1.5.9' id='animejs-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/magician7fb9.js?ver=1.5.9' id='magicianjs-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/evenex/assets/js/popper.min7ef2.js?ver=1.5' id='popper-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/evenex/assets/js/bootstrap.min7ef2.js?ver=1.5' id='bootstrap-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/select2/select2.full.minfa0c.js?ver=4.0.3' id='select2-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/evenex/assets/js/xs-grid-line-animation7ef2.js?ver=1.5' id='xs-grid-line-animation-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/evenex/assets/js/script7ef2.js?ver=1.5' id='evenex-script-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min77e1.js?ver=5.6.4' id='wp-embed-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min0226.js?ver=3.1.2' id='font-awesome-4-shim-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/webpack.runtime.min0226.js?ver=3.1.2' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/frontend-modules.min0226.js?ver=3.1.2' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/ui/core.min35d0.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/share-link/share-link.min0226.js?ver=3.1.2' id='share-link-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
 <script type='text/javascript' id='elementor-frontend-js-before'>
-    var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.2","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Eventin Events &#8211; Evenex ","excerpt":"<p>Event<\/p>\n"}};
+    var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.2","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/demo.xpeedstudio.com\/evenex\/multi-event-dark\/../../wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Eventin Events &#8211; Evenex ","excerpt":"<p>Event<\/p>\n"}};
 </script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend.min0226.js?ver=3.1.2' id='elementor-frontend-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/wp-event-solution/assets/js/elementorc0b8.js?ver=2.3.7' id='etn-elementor-inputs-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementskit-lite/widgets/init/assets/js/slick.mine7f3.js?ver=2.1.7' id='ekit-slick-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementore7f3.js?ver=2.1.7' id='elementskit-elementor-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/sticky-content/assets/js/jquery.stickye7f3.js?ver=2.1.7' id='elementskit-sticky-content-script-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/sticky-content/assets/js/maine7f3.js?ver=2.1.7' id='elementskit-sticky-content-script-init-js'></script>
-<script type='text/javascript' src='../wp-content/themes/evenex/assets/js/elementor7ef2.js?ver=1.5' id='evenex-main-elementor-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/widget-init7fb9.js?ver=1.5.9' id='elementskit-parallax-widget-init-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/parallax/assets/js/section-init7fb9.js?ver=1.5.9' id='elementskit-parallax-section-init-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/evenex-essential/modules/elements/assets/js/widget-scripts-pro4963.js?ver=1.1' id='evenex-widget-scripts-pro-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min0226.js?ver=3.1.2' id='preloaded-elements-handlers-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/metform/controls/assets/js/form-picker-editor5f04.js?ver=1.4.6' id='metform-js-formpicker-control-editor-js'></script>
-<script type='text/javascript' src='../wp-content/plugins/elementskit-lite/modules/controls/assets/js/widgetarea-editore7f3.js?ver=2.1.7' id='elementskit-js-widgetarea-control-editor-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/frontend.min0226.js?ver=3.1.2' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/wp-event-solution/assets/js/elementorc0b8.js?ver=2.3.7' id='etn-elementor-inputs-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/slick.mine7f3.js?ver=2.1.7' id='ekit-slick-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementore7f3.js?ver=2.1.7' id='elementskit-elementor-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/sticky-content/assets/js/jquery.stickye7f3.js?ver=2.1.7' id='elementskit-sticky-content-script-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/sticky-content/assets/js/maine7f3.js?ver=2.1.7' id='elementskit-sticky-content-script-init-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/evenex/assets/js/elementor7ef2.js?ver=1.5' id='evenex-main-elementor-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/widget-init7fb9.js?ver=1.5.9' id='elementskit-parallax-widget-init-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/parallax/assets/js/section-init7fb9.js?ver=1.5.9' id='elementskit-parallax-section-init-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/evenex-essential/modules/elements/assets/js/widget-scripts-pro4963.js?ver=1.1' id='evenex-widget-scripts-pro-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min0226.js?ver=3.1.2' id='preloaded-elements-handlers-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/metform/controls/assets/js/form-picker-editor5f04.js?ver=1.4.6' id='metform-js-formpicker-control-editor-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementskit-lite/modules/controls/assets/js/widgetarea-editore7f3.js?ver=2.1.7' id='elementskit-js-widgetarea-control-editor-js'></script>
 </body>
 <!-- Mirrored from demo.xpeedstudio.com/evenex/multi-event-dark/etn/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 04 Jul 2021 23:42:23 GMT -->
 </html>

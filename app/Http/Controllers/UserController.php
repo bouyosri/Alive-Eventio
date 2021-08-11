@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
@@ -30,27 +32,55 @@ class UserController extends Controller
         return view('User.show',compact(['data']));
     }
 
-    public function edit($id)
+    public function edit()
     {
+        $id=Auth::id();
         $data = User::find($id);
-        return view('User.edit',compact(['data']));
+        return view('User.Myaccount',compact(['data']));
     }
 
     public function update(Request $request, $id)
     {
         $request->validate([
             'name' => 'required',
-            'description' => 'required',
-            'location' => 'required',
-            'image' => 'required',
+            'email' => 'required|email',
+            'password' => 'required',
+            'image' => 'nullable',
         ]);
 
-        User::where('id',$id)->update($request->all());
+        if ($request->image){
+            $newImageName2= time().'-'.$request->name.'.'.$request->image->extension();
+            $request->image->move(public_path('wp-content\uploads\images'),$newImageName2);
+
+            User::where('id',$id)->update([
+                'image' => $newImageName2]);
+        }
+        $hashed = Hash::make($request->password);
+
+        User::where('id',$id)->update(
+                 ['name' => $request->name,
+                'email' => $request->email,
+                'password' => $hashed]);
         return redirect()->back()->with('success','Update Successfully');
 
     }
 
     public function organize($id)
+    {
+        $User = User::find($id);
+        if ($User->role==1)
+        {
+            $User->update(array('role' => 0));
+        }
+        else
+            User::where('id',$id)->update(array('role' => 1));
+
+
+        return redirect()->back()->with('success','Update Successfully');
+
+    }
+
+    public function block($id)
     {
         $User = User::find($id);
         if ($User->role==1)

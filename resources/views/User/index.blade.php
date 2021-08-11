@@ -42,7 +42,12 @@
                                         <th scope="row">{{$row->id }}</th>
                                         <td>{{$row->name }}</td>
                                         <td class="w-25">
-                                            <img src="../wp-content/uploads/images/{{$row->image}}" class="img-fluid img-thumbnail" alt="Sheep">
+                                            @if($row->image)
+                                                <img style="    max-height: 113px;" src="../wp-content/uploads/images/{{$row->image}}" class="img-fluid img-thumbnail">
+                                            @else
+                                                <img style="    max-height: 113px;" src="../wp-content/uploads/images/user1.png" class="img-fluid img-thumbnail">
+                                            @endif
+
                                         </td>
                                         <td>{{$row->email }}</td>
                                         <td>
@@ -51,17 +56,19 @@
                                                 Client
                                             @elseif ($row->role == 1)
                                                 Organizer
-                                            @else
+                                            @elseif ($row->role == 2)
                                                 Admin
+                                            @else
+                                                Super Admin
                                             @endif
                                         </td>
                                         <td>
                                             <form action="{{ route('organize',$row->id) }}" method="POST">
                                                 @csrf
-                                                @if ($row->role != 2)
+                                                @if ($row->role != 3)
 
 
-                                                        @if ($row->role == 1)
+                                                        @if ($row->role == 1 or $row->role == 2)
                                                         <button type="submit"
                                                                 class="btn btn-danger" ><i class="far fa-arrow-alt-circle-down"></i></button>
 
@@ -69,7 +76,15 @@
                                                         <button type="submit"
                                                                 class="btn btn-success"> <i class="far fa-arrow-alt-circle-up"></i></button>
 
+                                                        @endif
                                                 @endif
+                                            </form>
+
+                                            <form action="{{ route('organize',$row->id) }}" method="POST">
+                                                @csrf
+                                                @if ($row->role == 2)
+                                                        <button type="submit"
+                                                                class="btn btn-danger" ><i class="fa fa-lock" aria-hidden="true"></i></button>
                                                 @endif
                                             </form>
                                         </td>

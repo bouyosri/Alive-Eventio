@@ -19,9 +19,18 @@
 
     <div class="etn-event-archive-wrap">
         <div class="etn-container">
-            <a href="{{url('/')}}/events/create" style="margin-bottom: 26px;
+            @guest
+            @if (Route::has('login'))
+                <div></div>
+            @endif
+                @else
+                    @if (Auth::user()->role !=0)
+                        <a href="{{url('/')}}/events/create" style="margin-bottom: 26px;
     left: -108px;" class="metform-btn metform-submit-btn xs-btn" id=""><i aria-hidden="true" class="fa fa-plus-square"></i>					<span>Add Event </span>
-            </a>
+                        </a>
+                    @endif
+            @endguest
+
             <div class="etn-row etn-event-wrapper">
 
                 @foreach($data as $row)

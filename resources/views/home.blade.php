@@ -543,7 +543,7 @@
                                         <div class="elementor-widget-container">
                                             <div class="elementor-image">
                                                 <a href="../index.html">
-                                                    <img width="363" height="88" src="../wp-content/uploads/sites/14/2021/02/logo.png" class="attachment-large size-large" alt="site logo not found" loading="lazy" srcset="https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo.png 363w, https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo-300x73.png 300w" sizes="(max-width: 363px) 100vw, 363px" /> </a>
+                                                    <img width="363" height="88" src="../../wp-content/uploads/sites/14/2021/02/logo.png" class="attachment-large size-large" alt="site logo not found" loading="lazy" srcset="https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo.png 363w, https://demo.xpeedstudio.com/evenex/multi-event-dark/wp-content/uploads/sites/14/2021/02/logo-300x73.png 300w" sizes="(max-width: 363px) 100vw, 363px" /> </a>
                                             </div>
                                         </div>
                                     </div>
@@ -565,383 +565,15 @@
 
                                                         <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../about-us/index.html" class="ekit-menu-nav-link">About</a></li>
                                                         <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/events" class="ekit-menu-nav-link">Events</a></li>
-                                                        <li id="menu-item-8295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8295 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Schedule<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                <li id="menu-item-4919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4919 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-list/index.html" class=" dropdown-item">Schedule List</a>
-                                                                <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-vertical/index.html" class=" dropdown-item">Schedule Vertical</a>
-                                                                <li id="menu-item-4917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-horizontal/index.html" class=" dropdown-item">Schedule horizontal</a>
-                                                            </ul>
-                                                        </li>
+                                                        @guest
+                                                        @if (!Route::has('login'))
+                                                        @if (Auth::user()->role == 3 or Auth::user()->role == 2)
+                                                            <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/user" class="ekit-menu-nav-link">Users</a></li>
+                                                        @endif
+                                                        @endif
+                                                        @endguest
 
-                                                        <li id="menu-item-1357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1357 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                            <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Pages<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                <li id="menu-item-4920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4920 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                                    <a href="#" class=" dropdown-item">Speaker<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                                    <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                        <li id="menu-item-3267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3267 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker-list/index.html" class=" dropdown-item">Speaker List</a>
-                                                                        <li id="menu-item-4921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4921 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker/laura-bryant-duplicate-1/index.html" class=" dropdown-item">Single Speaker</a>
-                                                                        <li id="menu-item-4922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4922 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker/index.html" class=" dropdown-item">Speaker Archive</a>
-                                                                        <li id="menu-item-4923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4923 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../speaker-categories/consultant/index.html" class=" dropdown-item">Speaker Category</a>
-                                                                    </ul>
-                                                                <li id="menu-item-8137" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-8137 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../news/index.html" class=" dropdown-item">News</a>
-                                                                <li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../venue/index.html" class=" dropdown-item">Venue</a>
-                                                                <li id="menu-item-5041" class="d-none menu-item menu-item-type-post_type menu-item-object-page menu-item-5041 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../hotel-room/index.html" class="d-none dropdown-item">Hotel Room</a>
-                                                                <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../support-faq/index.html" class=" dropdown-item">Support &amp; Faq</a>
-                                                                <li id="menu-item-735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-735 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../sponsor/index.html" class=" dropdown-item">Sponsor</a>
-                                                                <li id="menu-item-2201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2201 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../gallery/index.html" class=" dropdown-item">Gallery</a>
-                                                                <li id="menu-item-4276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4276 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../pricing-plan/index.html" class=" dropdown-item">Pricing Plan</a>
-                                                                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../contact-us/index.html" class=" dropdown-item">Contact</a>
-                                                            </ul>
-                                                        </li>
-                                                        <li id="menu-item-5271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5271 nav-item elementskit-dropdown-has top_position elementskit-dropdown-menu-custom_width elementskit-megamenu-has elementskit-mobile-builder-content" data-vertical-menu=1140>
-                                                            <a href="#" class="ekit-menu-nav-link">Elements<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
-                                                            <ul class="elementskit-megamenu-panel">
-                                                                <div data-elementor-type="wp-post" data-elementor-id="5272" class="elementor elementor-5272" data-elementor-settings="[]">
-                                                                    <div class="elementor-inner">
-                                                                        <div class="elementor-section-wrap">
-                                                                            <section class="elementor-section elementor-top-section elementor-element elementor-element-2bae7b1a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2bae7b1a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-                                                                                <div class="elementor-container elementor-column-gap-default">
-                                                                                    <div class="elementor-row">
-                                                                                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6272c495" data-id="6272c495" data-element_type="column">
-                                                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                <div class="elementor-widget-wrap">
-                                                                                                    <section class="elementor-section elementor-inner-section elementor-element elementor-element-6c0296f6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c0296f6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                                                                                        <div class="elementor-container elementor-column-gap-default">
-                                                                                                            <div class="elementor-row">
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7158d446" data-id="7158d446" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-7278078 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="7278078" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-unlink"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-9c88c12 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="9c88c12" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/accordion/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Accordion</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/count-down-timer/index.html" class="elementor-repeater-item-7f952d5 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Count Down Timer</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-accordion/index.html" class="elementor-repeater-item-c82bbbe ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Accordion</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/pie-chart/index.html" class="elementor-repeater-item-39c552d ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Pie Chart</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-comparison/index.html" class="elementor-repeater-item-2e18eff ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Comparison</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2de14ced" data-id="2de14ced" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-5855eaa ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="5855eaa" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-bubble"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-6fd05d09 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="6fd05d09" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/blog/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Blog</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/faq/index.html" class="elementor-repeater-item-0367d10 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">FAQ</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/image-box/index.html" class="elementor-repeater-item-03add03 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Image Box</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/pricing/index.html" class="elementor-repeater-item-e612efc ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Pricing</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/contact-form/index.html" class="elementor-repeater-item-16bb0b2 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Contact Form</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/social-media/index.html" class="elementor-repeater-item-6779c44 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Social Media</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-687dffb1" data-id="687dffb1" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-27d31d04 ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="27d31d04" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-unlink"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-d34ee47 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="d34ee47" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/client-logo/index.html" class="elementor-repeater-item-a6f91d5 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Client Logo</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/fun-fact/index.html" class="elementor-repeater-item-90690f9 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Fun fact</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/progress-bar/index.html" class="elementor-repeater-item-0b6b5da ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Progress Bar</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/mail-chimp/index.html" class="elementor-repeater-item-c5caf9b ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Mail Chimp</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/video/index.html" class="elementor-repeater-item-6fb34aa ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Video</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                                <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-58ea5436" data-id="58ea5436" data-element_type="column">
-                                                                                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                                                                                        <div class="elementor-widget-wrap">
-                                                                                                                            <div class="elementor-element elementor-element-7ae892bc ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="7ae892bc" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementskit-infobox text- text-left icon-lef-right-aligin elementor-animation- media  ">
-                                                                                                                                            <div class="elementskit-box-header elementor-animation-">
-                                                                                                                                                <div class="elementskit-info-box-icon  text-center">
-                                                                                                                                                    <i aria-hidden="true" class="elementkit-infobox-icon fasicon icon-bubble"></i>
-                                                                                                                                                </div>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="box-body">
-                                                                                                                                                <h3 class="elementskit-info-box-title">
-                                                                                                                                                    ELEMENTS
-                                                                                                                                                </h3>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="elementor-element elementor-element-6577ebc0 elementor-align-left elementor-widget elementor-widget-elementskit-page-list" data-id="6577ebc0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-page-list.default">
-                                                                                                                                <div class="elementor-widget-container">
-                                                                                                                                    <div class="ekit-wid-con">
-                                                                                                                                        <div class="elementor-icon-list-items ">
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/tab/index.html" class="elementor-repeater-item-bd80e4f ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Tab</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/icon-box/index.html" class="elementor-repeater-item-eecafa2 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Icon Box</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/testimonial/index.html" class="elementor-repeater-item-361adbc ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Testimonial</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/team/index.html" class="elementor-repeater-item-81e7e90 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Team</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                            <div class="elementor-icon-list-item   ">
-                                                                                                                                                <a target=_blank rel="" href="../elements/call-to-action/index.html" class="elementor-repeater-item-be374d0 ekit_badge_left">
-                                                                                                                                                    <div class="ekit_page_list_content">
-                                                                                                                        <span class="elementor-icon-list-text">
-                                                                                                                        <span class="ekit_page_list_title_title">Call To Action</span>
-                                                                                                                        </span>
-                                                                                                                                                    </div>
-                                                                                                                                                </a>
-                                                                                                                                            </div>
-                                                                                                                                        </div>
-                                                                                                                                    </div>
-                                                                                                                                </div>
-                                                                                                                            </div>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </section>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </ul>
 
-                                                        </li>
                                                         @guest
                                                             @if (Route::has('login'))
                                                                 <div style="padding-top: 17px;" class="elementor-element elementor-element-292c45d elementor-widget__width-auto elementor-hidden-phone elementor-widget elementor-widget-elementskit-dual-button" data-id="292c45d" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-dual-button.default">
@@ -965,9 +597,16 @@
                                                             @endif
                                                         @else
                                                             <li style="margin-left: 194px;" id="menu-item-8295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8295 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu=750px>
-                                                                <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">{{ Auth::user()->name }}<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+
+                                                                <a href="#" class="ekit-menu-nav-link ekit-menu-dropdown-toggle">
+                                                                    @if(Auth::user()->image)
+                                                                        <img style="    max-height: 50px;" src="../wp-content/uploads/images/{{Auth::user()->image}}" class="img-fluid img-thumbnail">
+                                                                    @else
+                                                                        <img style="    max-height: 50px;" src="../wp-content/uploads/images/user1.png" class="img-fluid img-thumbnail">
+                                                                    @endif
+                                                                    {{ Auth::user()->name }}<i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
                                                                 <ul class="elementskit-dropdown elementskit-submenu-panel">
-                                                                    <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="../schedule-vertical/index.html" class=" dropdown-item">My Account</a></li>
+                                                                    <li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/myaccount" class=" dropdown-item">My Account</a></li>
                                                                     <li id="menu-item-4917" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px>
                                                                         <a href="{{ route('logout') }}" class=" dropdown-item" onclick="event.preventDefault();
                                                                         document.getElementById('logout-form').submit();">
@@ -992,7 +631,7 @@
                                                     <div class="elementskit-nav-identity-panel">
                                                         <div class="elementskit-site-title">
                                                             <a class="elementskit-nav-logo" href="https://demo.xpeedstudio.com/evenex/multi-event-dark" target="_self" rel="">
-                                                                <img src="../wp-content/uploads/sites/14/2020/12/main-logo.png" alt="">
+                                                                <img src="../../wp-content/uploads/sites/14/2020/12/main-logo.png" alt="">
                                                             </a>
                                                         </div>
                                                         <button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
